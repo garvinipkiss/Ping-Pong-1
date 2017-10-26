@@ -8,3 +8,10 @@
 footer {
     display: block;
 }
+.well{
+  margin-top: 300px;
+  background-color: #273D9C;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
