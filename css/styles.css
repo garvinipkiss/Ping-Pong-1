@@ -1,0 +1,10 @@
+.container-fluid{
+  background-color: #2EC213;
+  background-size: cover;
+}
+.jumbotron{
+  background-color: #2EC213;
+}
+footer {
+    display: block;
+}
