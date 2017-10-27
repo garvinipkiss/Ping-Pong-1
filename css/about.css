@@ -1,6 +1,36 @@
-.w3{
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+h3{
+  text-align: center;
+  color: white;
+}
 
+h5{
+  border-top: 10px;
+  text-align: center;
+}
 
+.fa{
+
+    padding-left: 50px;
+    border-radius: 50%;
+    shape-inside: circle();
+  }
+
+.hard{
+    font-family: 'Francois One', sans-serif;
+}
+.goli{
+  font-family: 'Vollkorn', serif;
+}
+.italic{
+  font-family: 'Quicksand', sans-serif;
 }
 
 input[type=text], select, textarea {
@@ -37,4 +67,22 @@ input[type=submit]:hover {
   background-size: cover;
   height: 200px;
   width: auto;
+}
+*.w3{
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color:blue;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2px;
+  text-align: center;
+  }
+*.w3:hover{
+background-color: white;
+}
+*.w3:hover .w3{
+display: block;
 }

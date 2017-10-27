@@ -1,6 +1,38 @@
+h1{
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.italic{
+font-family: 'Quicksand', sans-serif;
+}
+.hard{
+  font-family: 'Francois One', sans-serif;
+}
+.goli{
+  font-family: 'Vollkorn', serif;
+}
+.fa{
+
+    padding-left: 50px;
+    border-radius: 50%;
+    shape-inside: circle();
+  }
+
 .container-fluid{
   background-color: #2EC213;
   background-size: cover;
+  height: 500px;
 }
 .jumbotron{
   background-color: #2EC213;
@@ -9,17 +41,18 @@ footer {
     display: block;
 }
 .well{
-  margin-top: 300px;
+  margin-top: 100px;
   background-color: #273D9C;
   background-size: cover;
-  height: 200px;
+  height: 300px;
   width: auto;
+  align-items: center;
 }
-.w3{
+*.w3{
   float: left;
   width: 200px;
   height: 40px;
-  background-color:blue;
+  background-color:#273D9C;
   opacity: .8;
   line-height: 40px;
   text-align: center;
@@ -27,9 +60,9 @@ footer {
   margin-right: 2px;
   text-align: center;
   }
-.w3:hover{
+*.w3:hover{
 background-color: white;
 }
-.w3:hover .w3{
+*.w3:hover .w3{
 display: block;
 }
