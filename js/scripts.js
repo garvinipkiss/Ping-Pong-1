@@ -7,7 +7,7 @@ function numberArray(hard){
             Numbers.push("PingPong");
         }
         else if (a%5===0){
-            rangeOfNumbers.push("Pong");
+          Numbers.push("Pong");
 
         }
         else if (a % 3===0){
@@ -35,7 +35,7 @@ $("ul").empty();
 
 var hard = parseInt($("#harder").val());
 
-var display= numberArray(harder);
+var display= numberArray(hard);
 
 for (var index =0; index <= display.length; index++){
 
